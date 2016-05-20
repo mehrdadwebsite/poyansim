@@ -19,18 +19,18 @@
       <ul class="nav navbar-nav navbar-right">
 
         {% if page.url == "/index.html" %}
-          <li class="active">
+          <li class="pull-right active">
           {% else %}
-          <li>
+          <li class="pull-right">
         {% endif %}
-        <a href="{{ site.baseurl }}/">Home</a></li>
+        <a href="{{ site.baseurl }}/">پویان سیم</a></li>
 
         {% for p in site.pages %}
           {% if p.title %}
             {% if p.url == page.url %}
-              <li class="active">
+              <li class="pull-right active">
               {% else %}
-              <li>
+              <li class="pull-right">
             {% endif %}
             <a href="{{ p.url | prepend: site.baseurl }}"><span class="glyphicon {{ p.icon }}"></span> {{ p.title }}</a></li>
           {% endif %}

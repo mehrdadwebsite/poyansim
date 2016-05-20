@@ -15,7 +15,7 @@ layout: default
   <div class="col-sm-9">
     <div class="post-area ">
 	  <div class="post-list-header">
-	  Posts
+	  پست ها
 	  </div>
       <div class="post-list-body">
         <div class="all-posts" post-cate="All">
@@ -38,7 +38,7 @@ layout: default
                     <h2>
                     {{ post.title }}
                     </h2>
-                    <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <span class="">{{ page.pdate }}</span>
                   </a>
                 {% endif %}
               {% endfor %}
@@ -52,11 +52,11 @@ layout: default
   <div class="col-sm-3">
     <div class="shadow-corner-curl hidden-xs">
       <div class="categories-list-header">
-        Categories
+        دسته بندی ها
       </div>
       
       <a href="javascript:;" class="categories-list-item" cate="All">
-        All<span class="my-badge"> {{site.posts | size}}</span>
+        همه <span class="my-badge"> {{site.posts | size}}</span>
       </a>
       {% for category in site.categories %}
         <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
