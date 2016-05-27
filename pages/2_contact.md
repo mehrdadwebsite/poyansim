@@ -3,9 +3,12 @@ layout: page
 title: تماس با ما
 comments: false
 permalink: /contact/
+img: "/static/img/Home.jpg"
+imgTitle : "تماس با ما"
+imgDescription : "استعلام قیمت نصب سیم خاردار"
 ---
 
-* محتو
+* محتوا
 {:toc}
 
 ## ساعات کاری ##
@@ -18,6 +21,6 @@ permalink: /contact/
  
 *دفتر*   02165119457
  
-*رایانامه* : poyansim@gmail.co
+*رایانامه* : poyansim@gmail.com
 
 ----------
