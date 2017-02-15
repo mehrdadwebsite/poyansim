@@ -6,7 +6,7 @@ pdate:	1395/11/27
 comments: false
 category: پروژه
 img: "/static/img/sample-work-3/installation-of-barbed-wire-portfolio-1.jpg"
-imgTitle : "نمونه کار نصب سیستم خاردار در مناطق کوهستانی"
+imgTitle : "نمونه نصب سیم خاردار"
 imgDescription : "نصب سیستم خاردار در مناطق کوهستانی"
 description: محل اجرای پروژه نصب حتی اگر در مناطق دور از جاده و امکانات باشد برای آن راه حلی داریم
 keywords: نصب سیم خاردار,نصب سیم خاردار در مناطق کوهستانی,سیم خاردار حلقوی
